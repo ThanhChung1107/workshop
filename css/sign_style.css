@@ -15,6 +15,21 @@ body {
     background-size: cover;
     background-position: center;
 }
+.back-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 26px;
+}
+.back-main a {
+    text-decoration: none;
+    color: #fff;
+}
+.back-main a:hover {
+    color: #000;
+}
 .wrapper {
     width: 420px;
     color: #fff;
@@ -90,6 +105,10 @@ body {
    cursor:pointer ;
    color: #333;
    font-weight: 600;
+}
+.btn:hover {
+    background-color: #000;
+    color: #fff;
 }
 .wrapper .register-link {
     text-align: center;
