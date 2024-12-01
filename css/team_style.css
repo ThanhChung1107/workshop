@@ -173,18 +173,48 @@ a {
     padding-top: 10px;
     margin: 20px 70px 30px;
 }
-.card .card-img {
+
+/* .mc-img {
+    background-image: url(member/thanhchung.png);
+}
+.va-img {
+background-image: url(member/thanhchung.png);
+}
+.tc-img {
+background-image: url(member/thanhchung.png);
+}
+.mn-img {
+background-image: url(member/thanhchung.png);
+}
+
+.tn-img {
+background-image: url(member/thanhchung.png);
+}
+
+.tb-img{
+background-image: url(member/thanhchung.png);
+}
+
+.al-img
+{
+background-image: url(member/thanhchung.png);
+}
+.mh-img {
+    background-image: url(member/thanhchung.png);
+} */
+.card img{
     width: 80px;
     height: 80px;
     border: 2px solid var(--primary-color);
-    background: url(https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/474073nTt/avatar-ff-ngau-cuc-dep_053123544.jpg) no-repeat;
+    background: no-repeat;
+
     background-size: cover;
     background-position: center;
     border-radius: 50%;
     margin:0 auto 20px;
 
 }
-.card-img:hover {
+.card img:hover {
     width: 100%;
     height: 100%;
     border-radius: unset;
